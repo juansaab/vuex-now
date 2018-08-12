@@ -1,8 +1,8 @@
 # vuex-now
-A [Vuex](https://vuex.vuejs.org) plugin wich exposes a Reactive Time variable with auto update on a given interval.
+A [Vuex](https://vuex.vuejs.org) plugin wich exposes a Reactive Time variable with auto update on a given interval. Useful when you need to update periodically a property on your Vue.JS component.
 
 ## Why this plugin?
-Sometimes you need to update your Vue.JS component data based on the current time. Asigning new Date() to a computed variable might be not enough as time gets cached and property will not be reactive. 
+Sometimes you need to update your Vue.JS component data based on the current time or you want to periodically update a computed property. Asigning new Date() to a computed variable might be not enough as time gets cached and property will not be reactive. 
 
 This plugin exposes a variable on the Vuex store which autoupdates and computes on a given interval. Based on the idea exposed on the article [Reactive Time with Vue.js](https://cushionapp.com/journal/reactive-time-with-vuejs)
 
