@@ -1,15 +1,12 @@
 {
   "name": "vuex-now",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vuex plugin wich exposes a reactive Time variable with auto update on a given interval.",
   "main": "/dist/vuex-now.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
     "vuex": "^3.x"
   },
   "repository": {
@@ -34,6 +31,9 @@
   },
   "homepage": "https://github.com/juansaab/vuex-now#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
     "rimraf": "^2.6.2",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
