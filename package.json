@@ -1,6 +1,6 @@
 {
   "name": "vuex-now",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Vuex plugin wich exposes a reactive Time variable with auto update on a given interval.",
   "main": "/dist/vuex-now.js",
   "scripts": {

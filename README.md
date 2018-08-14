@@ -1,4 +1,7 @@
 # vuex-now
+[![npm version](https://badge.fury.io/js/vuex-now.svg)](https://badge.fury.io/js/vuex-moment)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A [Vuex](https://vuex.vuejs.org) plugin wich exposes a Reactive Time variable with auto update on a given interval. Useful when you need to update periodically a property on your Vue.JS component.
 
 ## Why this plugin?
@@ -13,7 +16,7 @@ npm install vuex-now
 ```
 Import the plugin in your Vuex store definition.
 ```javascript
-import VuexNow from '@/plugins/vuex-now'
+import VuexNow from 'vuex-now'
 ```
 Create a constant to initialize the plugin with your desired updating interval.
 ```javascript
