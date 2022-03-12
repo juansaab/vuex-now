@@ -1,5 +1,5 @@
 # vuex-now
-[![npm version](https://badge.fury.io/js/vuex-now.svg)](https://badge.fury.io/js/vuex-moment)
+[![npm version](https://badge.fury.io/js/vuex-now.svg)](https://badge.fury.io/js/vuex-now)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A [Vuex](https://vuex.vuejs.org) plugin wich exposes a Reactive Time variable with auto update on a given interval. Useful when you need to update periodically a property on your Vue.JS component.
